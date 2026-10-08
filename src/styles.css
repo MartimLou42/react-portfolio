@@ -116,3 +116,13 @@ html { scroll-padding-top: 24px; }
   .filter-bar select { min-width: 145px; }
   .filter-bar p { width: 100%; margin-left: 0; }
 }
+
+.project-contribution { margin-top: 12px; font-size: 15px; line-height: 1.65; }
+.project-gallery { grid-column: 1 / -1; border-top: 1px solid var(--line); padding: 20px 28px; }
+.project-gallery summary { cursor: pointer; font-size: 14px; font-weight: 650; }
+.project-gallery summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+.gallery-images { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 24px; }
+.gallery-images figure { margin: 0; }
+.gallery-images img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+.gallery-images figcaption { margin-top: 12px; font-size: 13px; color: var(--muted); line-height: 1.5; }
+@media (max-width: 600px) { .gallery-images { grid-template-columns: 1fr; } }

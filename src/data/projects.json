@@ -2,7 +2,7 @@
   {
     "id": "the-rest-is-retro",
     "title": "The Rest Is Retro",
-    "description": "A group-built vintage marketplace with a React interface, item listings, saved items, and an Express API backed by MySQL.",
+    "description": "A vintage marketplace with item listings, saved finds, and personalised browsing.",
     "type": "Web application",
     "technologies": [
       "React",
@@ -11,14 +11,28 @@
       "Sequelize",
       "MySQL"
     ],
-    "image": null,
-    "imageAlt": "The Rest Is Retro marketplace preview",
+    "image": "/previews/retro-design.png",
+    "imageAlt": "The Rest Is Retro product-page design, shown on desktop and mobile",
     "groupProject": true,
     "featured": true,
     "links": [
       {
         "label": "Source code",
         "url": "https://github.com/CallumeEdwards777/The-Rest-is-Retro"
+      }
+    ],
+    "badge": "Final project",
+    "contribution": "Led the team across UI/UX design and feature implementation, including an onboarding questionnaire that tailors the item feed to shoppers’ interests.",
+    "gallery": [
+      {
+        "image": "/previews/retro-decades.png",
+        "alt": "Onboarding questionnaire with decade preferences selected",
+        "caption": "Choose favourite decades."
+      },
+      {
+        "image": "/previews/retro-interests.png",
+        "alt": "Onboarding questionnaire with electronics and vinyl selected",
+        "caption": "Choose interests to personalise the feed."
       }
     ]
   },
@@ -77,7 +91,7 @@
   {
     "id": "style-my-photo",
     "title": "Style My Photo",
-    "description": "A group-built photo restyling app with image upload, style selection, and a before-and-after comparison.",
+    "description": "A photo restyling app with image upload, style selection, and a before-and-after comparison.",
     "type": "Web application",
     "technologies": [
       "HTML",
@@ -99,7 +113,8 @@
         "label": "Source code",
         "url": "https://github.com/MartimLou42/image-gen-group"
       }
-    ]
+    ],
+    "contribution": "Drove the project from UI design through hands-on feature implementation."
   },
   {
     "id": "notes-app",
@@ -202,7 +217,7 @@
   {
     "id": "bootstrap-journal",
     "title": "Learning in Public: Bootstrap Migration",
-    "description": "The learning journal rebuilt with Bootstrap\u2019s responsive grid, navigation, cards, and form components.",
+    "description": "The learning journal rebuilt with Bootstrap’s responsive grid, navigation, cards, and form components.",
     "type": "Website",
     "technologies": [
       "HTML",
