@@ -1,54 +1,48 @@
-# React portfolio: current build plan
+# Martim portfolio: current plan
 
-Updated 2026-10-08 against the supplied challenge screenshot and October build brief.
-This replaces the September plan. Existing exercises stay untouched.
+Updated 2026-10-08 after Martim's review of the first preview.
 
-## Requirements
+## Purpose
 
-- React with reusable components, props, and state.
-- Home and Projects, connected through navigation.
-- Eight previous weekly challenges, in week order.
-- A technology filter with All selected initially, selected states, and a result count.
-- Responsive desktop and mobile layouts, keyboard navigation, and visible focus.
-- Deploy to Render and provide a working live link, including direct route loading.
+A portfolio Martim can send to prospective employers and grow beyond the bootcamp.
+Prioritize visitors understanding and exploring the work over a week-by-week assignment narrative.
+The screenshot's React/components, two pages, interaction, responsive design, eight projects,
+and eventual Render deployment remain the coursework baseline. Chronology is not verified:
+Martim corrected Personal Portfolio to around Week 10, so remove all inferred week labels.
 
-## Project content
+## Visitor flow
 
-1. Personal Portfolio (HTML, CSS)
-2. Learning in Public (HTML, CSS, Flexbox)
-3. Learning in Public: Bootstrap Migration (HTML, CSS, Bootstrap)
-4. Interactive TODO List (HTML, CSS, JavaScript, DOM)
-5. Style My Photo (group project; do not invent a personal contribution)
-6. Python README Generator (terminal project; repository link, no web demo)
-7. Full-Stack Notes App
-8. RESPAWN: Game Review Blog
+- Home: short introduction and Selected work heading, direct link to the work section.
+- A closer look: three selected projects, with previews, descriptions, stack, and working links.
+- More work: the other projects in a compact grid, with no artificial chronology.
+- Contact: email and GitHub, no contact backend.
+- Projects: complete collection with a keyboard-accessible technology selector and live count.
 
-The supplied portfolio-projects.json is the source for descriptions and links.
-Keep visible content in one local data file, excluding local paths and verification notes.
-Use honest placeholders until real screenshots are captured. Do not invoke image generation,
-modify live data, repair exercises, or rebuild their backends.
+## Content and boundaries
 
-## Implementation
+The October inventory provides eight projects. Add The Rest Is Retro from inspected source.
+Label group projects without claiming a personal role; verified contribution details can be added later.
+No live demo is confirmed for Retro. Python is a terminal tool; neither requires an invented demo.
+Existing exercises remain standalone and untouched. Screenshots are read-only captures;
+no image generation, authenticated flows, or live-data writes for previews.
 
-Vite, React, JavaScript, React Router declarative routing, plain CSS.
-Header, Footer, and ProjectCard have separate responsibilities; pages compose them.
-Projects owns filter state when the full set is approved. No runtime API is required.
-Home introduces Martim and links to Projects and GitHub, using supplied facts only.
-No About page, carousel, contact backend, or animation system is needed.
+## Adding future work
 
-## Stages and review gates
+Each project is a record in src/data/projects.json. Array order controls presentation;
+featured controls the Home selection. Title, description, type, technologies, optional image,
+imageAlt, groupProject, and label/URL links are the complete current contract.
+New technologies appear in the filter automatically. No maximum of eight projects.
+Future Figma work can link to the design instead of code. A colour-grading collection can
+link to a gallery and use a representative image. Build that gallery only when real content
+and its presentation requirements exist, rather than adding an empty section now.
 
-1. Build Home, Projects, navigation, and one styled Week 1 card.
-   Verify the production build and desktop/mobile browser layouts.
-   Show a browser preview and stop for Martim's visual review.
-2. After approval, add all eight records and the technology filter.
-3. Capture project previews and verify links, filtering, focus, and responsive layouts.
-4. Finish README with setup, features, screenshots, and submission links.
-5. Deploy to Render within authorized scope and verify both routes directly.
+## Current delivery
 
-Only stage 1 is currently authorized. Do not push or publish in this stage.
+Build the employer-facing scrolling flow and full collection, remove week labels,
+add filtering, capture available previews, verify desktop/mobile and navigation, commit locally.
+Show the updated preview for review. Render publishing and external pushes are not authorized yet.
 
-## Design direction
+## Remaining before sending to employers
 
-White background, charcoal text, one blue accent, calm sans-serif typography.
-Prioritize readable project evidence, clear links, and generous spacing.
+Confirm personal contributions for group work, complete missing preview imagery,
+review final copy, deploy to Render, verify both routes, and add public submission links to README.

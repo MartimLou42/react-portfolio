@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer className="site-footer container">
-      <p>Martim's bootcamp portfolio</p>
-      <a href="https://github.com/MartimLou42">Find me on GitHub</a>
+      <p>Martim</p>
+      <a href="mailto:martimcolour@gmail.com">martimcolour@gmail.com</a>
     </footer>
   );
 }

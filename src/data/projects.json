@@ -1,17 +1,227 @@
 [
   {
-    "id": "week-1",
-    "week": 1,
+    "id": "the-rest-is-retro",
+    "title": "The Rest Is Retro",
+    "description": "A group-built vintage marketplace with a React interface, item listings, saved items, and an Express API backed by MySQL.",
+    "type": "Web application",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "MySQL"
+    ],
+    "image": null,
+    "imageAlt": "The Rest Is Retro marketplace preview",
+    "groupProject": true,
+    "featured": true,
+    "links": [
+      {
+        "label": "Source code",
+        "url": "https://github.com/CallumeEdwards777/The-Rest-is-Retro"
+      }
+    ]
+  },
+  {
+    "id": "respawn",
+    "title": "RESPAWN: Game Review Blog",
+    "description": "A game review blog with genre filtering, registration, sign-in, and controls for writers to manage their own reviews.",
+    "type": "Web application",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "MySQL",
+      "JWT"
+    ],
+    "image": "/previews/respawn.png",
+    "imageAlt": "RESPAWN: Game Review Blog project preview",
+    "groupProject": false,
+    "featured": true,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://tech-blog-app-7z8h.onrender.com/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/tech-blog-app"
+      }
+    ]
+  },
+  {
+    "id": "personal-portfolio",
     "title": "Personal Portfolio",
     "description": "A responsive colour-grading portfolio with a project grid, contact links, and selected work.",
+    "type": "Website",
     "technologies": [
       "HTML",
       "CSS"
     ],
-    "repositoryUrl": "https://github.com/MartimLou42/portfolio-assignment",
-    "demoUrl": "https://martimlou42.github.io/portfolio-assignment/",
-    "image": null,
+    "image": "/previews/personal-portfolio.png",
     "imageAlt": "Personal Portfolio project preview",
-    "groupProject": false
+    "groupProject": false,
+    "featured": true,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://martimlou42.github.io/portfolio-assignment/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/portfolio-assignment"
+      }
+    ]
+  },
+  {
+    "id": "style-my-photo",
+    "title": "Style My Photo",
+    "description": "A group-built photo restyling app with image upload, style selection, and a before-and-after comparison.",
+    "type": "Web application",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "Cloudflare Worker"
+    ],
+    "image": "/previews/style-my-photo.png",
+    "imageAlt": "Style My Photo project preview",
+    "groupProject": true,
+    "featured": false,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://martimlou42.github.io/image-gen-group/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/image-gen-group"
+      }
+    ]
+  },
+  {
+    "id": "notes-app",
+    "title": "Full-Stack Notes App",
+    "description": "A note-taking app with an Express API for creating, reading, editing, and deleting notes stored in a JSON file.",
+    "type": "Web application",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "JSON"
+    ],
+    "image": "/previews/notes-app.png",
+    "imageAlt": "Full-Stack Notes App project preview",
+    "groupProject": false,
+    "featured": false,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://full-stack-notes-app-wiew.onrender.com/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/full-stack-notes-app"
+      }
+    ]
+  },
+  {
+    "id": "todo-list",
+    "title": "Interactive TODO List",
+    "description": "A browser-based task list with adding, editing, completion, deletion, and checks for empty or duplicate tasks.",
+    "type": "Web application",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DOM"
+    ],
+    "image": "/previews/todo-list.png",
+    "imageAlt": "Interactive TODO List project preview",
+    "groupProject": false,
+    "featured": false,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://martimlou42.github.io/interactive-todo-list/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/interactive-todo-list"
+      }
+    ]
+  },
+  {
+    "id": "readme-generator",
+    "title": "Python README Generator",
+    "description": "A command-line tool that collects project details through interactive prompts and generates a Markdown README.",
+    "type": "Developer tool",
+    "technologies": [
+      "Python",
+      "InquirerPy",
+      "Rich"
+    ],
+    "image": null,
+    "imageAlt": "Python README Generator project preview",
+    "groupProject": false,
+    "featured": false,
+    "links": [
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/python-readme-generator"
+      }
+    ]
+  },
+  {
+    "id": "learning-in-public",
+    "title": "Learning in Public",
+    "description": "A four-page learning journal with shared navigation, article pages, and a styled contact form.",
+    "type": "Website",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Flexbox"
+    ],
+    "image": "/previews/learning-in-public.png",
+    "imageAlt": "Learning in Public project preview",
+    "groupProject": false,
+    "featured": false,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://martimlou42.github.io/learning-in-public/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/learning-in-public"
+      }
+    ]
+  },
+  {
+    "id": "bootstrap-journal",
+    "title": "Learning in Public: Bootstrap Migration",
+    "description": "The learning journal rebuilt with Bootstrap\u2019s responsive grid, navigation, cards, and form components.",
+    "type": "Website",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "image": "/previews/bootstrap-journal.png",
+    "imageAlt": "Learning in Public: Bootstrap Migration project preview",
+    "groupProject": false,
+    "featured": false,
+    "links": [
+      {
+        "label": "View live project",
+        "url": "https://martimlou42.github.io/bootstrap-website/"
+      },
+      {
+        "label": "Source code",
+        "url": "https://github.com/MartimLou42/bootstrap-website"
+      }
+    ]
   }
 ]

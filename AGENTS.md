@@ -1,10 +1,12 @@
-# React portfolio
+# Martim portfolio
 
-React + Vite + JavaScript + React Router declarative routing + plain CSS.
-Read plan.md for requirements and the current stage. Stage 1 shows only Week 1.
-Keep existing exercises and the supplied source documents untouched.
-Keep project content in src/data/projects.json; do not expose audit fields or local paths.
-Use supplied facts only. Preview placeholders must be labelled honestly.
-Run npm run build and verify desktop/mobile layouts and navigation in a real browser.
-Do not add the remaining projects, filters, publish, or push before stage approval.
+React + Vite + JavaScript + React Router + plain CSS. Read plan.md before changes.
+Employer-facing portfolio is the priority; coursework criteria are a baseline.
+Home is a scrolling introduction, selected work, more work, and contact. Projects adds a technology filter.
+Keep content in src/data/projects.json, in curated order. No week labels or assumed chronology.
+Project links are label/URL pairs: code, live site, Figma, or a gallery can use the same card.
+Group projects must be labelled; do not invent Martim's contribution.
+Use actual previews where available; label missing previews honestly.
+Existing exercises and supplied source documents stay untouched. No publishing or pushing without authorization.
 Commands: npm run dev; npm run build; npm run preview.
+Verify both routes, filtering, anchors, focus, and desktop/mobile layouts in a real browser.

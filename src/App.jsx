@@ -6,18 +6,23 @@ import Home from './pages/Home.jsx';
 import Projects from './pages/Projects.jsx';
 
 export default function App() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   const mainRef = useRef(null);
   const previousPath = useRef(pathname);
 
   useEffect(() => {
-    document.title = `${pathname === '/projects' ? 'Projects' : 'Martim'} | Bootcamp portfolio`;
-    if (previousPath.current !== pathname) {
+    document.title = `${pathname === '/projects' ? 'Projects' : 'Martim'} | Selected work`;
+    if (hash) {
+      const target = document.getElementById(hash.slice(1));
+      target?.scrollIntoView();
+      target?.focus({ preventScroll: true });
+      previousPath.current = pathname;
+    } else if (previousPath.current !== pathname) {
       mainRef.current.focus();
       window.scrollTo(0, 0);
       previousPath.current = pathname;
     }
-  }, [pathname]);
+  }, [pathname, hash]);
 
   return (
     <div className="site-shell">

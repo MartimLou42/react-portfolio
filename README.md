@@ -1,27 +1,41 @@
-# React bootcamp portfolio
+# Martim portfolio
 
-A two-page portfolio for Martim's weekly bootcamp challenges.
-Stage 1 includes Home, Projects, navigation, and a reusable Week 1 project card.
-The screenshot placeholder is labelled. Seven additional projects and the filter
-are planned after visual approval; this is not the final assignment submission.
+A growing portfolio of web applications, websites, and creative work.
+Home guides visitors through selected projects, more work, and contact.
+Projects shows the full collection with a technology filter.
 
 ## Run locally
 
-Use Node.js 22.12 or later.
+Node.js 22.12 or later.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Build: `npm run build`. Preview the build: `npm run preview`.
+Build: `npm run build`. Preview: `npm run preview`.
+
+## Add a project
+
+Edit `src/data/projects.json` and add a record with a unique `id`, `title`, `description`,
+`type`, `technologies`, `image` (or null), `imageAlt`, `groupProject`, `featured`, and `links`.
+Each link is `{ "label": "View design", "url": "https://example.com" }`.
+Order the records as you want them displayed. Set `featured` to true for a Home highlight.
+Put preview images in `public/previews/` and use `/previews/filename.png` as the image path.
+The technology filter updates automatically. Ordinary chat with the agent can add records;
+no React component changes are needed for a new project.
+
+The same record supports a Figma link or an existing colour-grading gallery without requiring
+code or a live application. A built-in gallery is future work when content is available.
+Group-project cards describe the project, not an unverified personal contribution.
 
 ## Structure
 
-- `src/pages/`: Home and Projects.
-- `src/components/`: shared navigation, footer, and project card.
-- `src/data/projects.json`: project copy, tags, and links.
-- `src/styles.css`: responsive layouts and visible keyboard focus.
+- `src/pages/`: scrolling Home and filterable Projects.
+- `src/components/`: shared Header, Footer, and ProjectCard.
+- `src/data/projects.json`: all project copy, previews, and links.
+- `src/styles.css`: responsive layouts and keyboard focus.
 
-Built with React, React Router, Vite, and plain CSS. Existing exercises remain standalone.
-See `plan.md` for the remaining stages. Render deployment and submission links are pending.
+Built with React, React Router, Vite, and plain CSS. Existing exercises remain untouched.
+Missing screenshots are labelled. Render deployment and public portfolio/repository links
+are pending; this local preview is not yet ready to email as a public website.
