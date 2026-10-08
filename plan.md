@@ -21,7 +21,8 @@ Martim corrected Personal Portfolio to around Week 10, so remove all inferred we
 ## Content and boundaries
 
 The October inventory provides eight projects. Add The Rest Is Retro from inspected source.
-Label group projects without claiming a personal role; verified contribution details can be added later.
+Group contributions were confirmed directly by Martim: leadership across design and implementation,
+with Retro onboarding personalising the feed. Retro is labelled Final project.
 No live demo is confirmed for Retro. Python is a terminal tool; neither requires an invented demo.
 Existing exercises remain standalone and untouched. Screenshots are read-only captures;
 no image generation, authenticated flows, or live-data writes for previews.
@@ -30,7 +31,7 @@ no image generation, authenticated flows, or live-data writes for previews.
 
 Each project is a record in src/data/projects.json. Array order controls presentation;
 featured controls the Home selection. Title, description, type, technologies, optional image,
-imageAlt, groupProject, and label/URL links are the complete current contract.
+imageAlt, groupProject, optional badge/contribution/gallery, and label/URL links form the current contract.
 New technologies appear in the filter automatically. No maximum of eight projects.
 Future Figma work can link to the design instead of code. A colour-grading collection can
 link to a gallery and use a representative image. Build that gallery only when real content
@@ -44,5 +45,6 @@ Show the updated preview for review. Render publishing and external pushes are n
 
 ## Remaining before sending to employers
 
-Confirm personal contributions for group work, complete missing preview imagery,
-review final copy, deploy to Render, verify both routes, and add public submission links to README.
+Local preparation is complete: contributions, Retro design gallery, Python tool treatment,
+and Render configuration. After review, push the neutral branch, deploy to Render, verify
+both public routes, and replace the pending live link in README.
