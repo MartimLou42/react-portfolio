@@ -45,6 +45,6 @@ Martim approved GitHub push and Render deployment on 2026-10-08.
 
 ## Remaining before sending to employers
 
-Deployed: https://martim-portfolio.onrender.com/ from react-portfolio-preview.
+Deployed: https://martim-portfolio.onrender.com/ from the standalone public repository on main.
 Public Home and direct Projects/reload, nine cards, filtering, gallery image loading, mobile
-overflow and contact focus verified. README includes the live link. Bootcamp repo remains private.
+overflow and contact focus verified. README includes the live link. Portfolio repo is public; bootcamp remains private.
