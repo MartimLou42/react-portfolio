@@ -1,0 +1,17 @@
+[
+  {
+    "id": "week-1",
+    "week": 1,
+    "title": "Personal Portfolio",
+    "description": "A responsive colour-grading portfolio with a project grid, contact links, and selected work.",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "repositoryUrl": "https://github.com/MartimLou42/portfolio-assignment",
+    "demoUrl": "https://martimlou42.github.io/portfolio-assignment/",
+    "image": null,
+    "imageAlt": "Personal Portfolio project preview",
+    "groupProject": false
+  }
+]
