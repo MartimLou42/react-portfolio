@@ -41,10 +41,10 @@ and its presentation requirements exist, rather than adding an empty section now
 
 Build the employer-facing scrolling flow and full collection, remove week labels,
 add filtering, capture available previews, verify desktop/mobile and navigation, commit locally.
-Show the updated preview for review. Render publishing and external pushes are not authorized yet.
+Martim approved GitHub push and Render deployment on 2026-10-08.
 
 ## Remaining before sending to employers
 
-Local preparation is complete: contributions, Retro design gallery, Python tool treatment,
-and Render configuration. After review, push the neutral branch, deploy to Render, verify
-both public routes, and replace the pending live link in README.
+Deployed: https://martim-portfolio.onrender.com/ from react-portfolio-preview.
+Public Home and direct Projects/reload, nine cards, filtering, gallery image loading, mobile
+overflow and contact focus verified. README includes the live link. Bootcamp repo remains private.

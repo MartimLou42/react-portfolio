@@ -1,6 +1,6 @@
 # Martim portfolio
 
-A growing portfolio of websites, applications, and creative work.
+A portfolio of projects from a 13-week web development bootcamp.
 Includes selected projects, a filterable project collection, and contact links.
 
 **Stack:** React, React Router, Vite, JavaScript, plain CSS.
@@ -27,15 +27,16 @@ Use labelled links for a live project, source code, Figma design, or gallery.
 
 ## Links
 
-- [GitHub repository](https://github.com/MartimLou42/bootcamp): portfolio changes await a push.
-- Live portfolio: not deployed yet.
+- [GitHub repository](https://github.com/MartimLou42/bootcamp/tree/react-portfolio-preview/react-portfolio)
+- [Commit history](https://github.com/MartimLou42/bootcamp/commits/react-portfolio-preview)
+- [Live portfolio](https://martim-portfolio.onrender.com/)
 
 ## Deployment
 
 Render settings are in the repository-root `render.yaml`: static site, root `react-portfolio`,
 build `npm ci && npm run build`, publish `dist`, and rewrite `/*` to `/index.html`.
-Push the reviewed branch before creating the site. After deployment, check `/` and `/projects`
-and replace the pending live link above.
+Render deploys updates pushed to `react-portfolio-preview`. Both `/` and `/projects`
+are verified publicly. The bootcamp repository is private; the portfolio website is public.
 
 Retro uses supplied design screenshots; no live demo is confirmed. The Python project is a command-line tool.
 Some linked Render apps may take a moment to wake up.
