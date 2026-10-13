@@ -48,3 +48,20 @@ Martim approved GitHub push and Render deployment on 2026-10-08.
 Deployed: https://martim-portfolio.onrender.com/ from the standalone public repository on main.
 Public Home and direct Projects/reload, nine cards, filtering, gallery image loading, mobile
 overflow and contact focus verified. README includes the live link. Portfolio repo is public; bootcamp remains private.
+
+## Finish list before applying (Martim, 2026-10-13)
+
+The morning brief reads this list, picks the first unticked step as the day's ONE action, and
+ticks it here when Martim completes the matching "🌐 Website:" Google Task. Each step is sized
+to roughly one sitting. Edit freely; order is priority.
+
+- [ ] About section: who Martim is, what he's looking for (2-3 sentences, his voice)
+- [ ] Downloadable CV linked from the site (PDF in public/)
+- [ ] Fix the slow first load (Render free tier sleeps; decide: keep-warm or move host)
+- [ ] Own domain: point martimlou.com (or chosen domain) at the portfolio
+- [ ] Design case study 1: pick the project (Retro onboarding is the strongest candidate)
+- [ ] Design case study 1: write problem → process → outcome, with screenshots
+- [ ] Design case study 1: publish on the site
+- [ ] Colour-grading gallery: choose 4-6 stills or clips worth showing
+- [ ] Colour-grading gallery: build and publish the gallery section
+- [ ] Final check: open the live site on phone + laptop, send the link to one friend for feedback
